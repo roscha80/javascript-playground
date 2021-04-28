@@ -4,8 +4,13 @@
 
 body {
   display: grid;
-  place-items: center;
+  justify-items: center;
   height: 100vh;
+  gap: 20px;
+}
+
+label {
+  display: grid;
 }
 
 .box {
