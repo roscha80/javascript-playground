@@ -3,45 +3,25 @@
 @import './_utility.css';
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   place-items: center;
   height: 100vh;
-  transition: all 0.4s ease-in-out;
 }
 
-.navbar {
-  margin: 50px;
-}
-
-.showtime {
-  visibility: visible !important;
-}
-
-.box1 {
-  width: 200px;
+.box {
   height: 100px;
-  background: hotpink;
-  visibility: hidden;
-}
-
-.box2 {
-  width: 50px;
-  height: 200px;
-  background: steelblue;
-  visibility: hidden;
-}
-
-.box3 {
-  width: 200px;
-  height: 400px;
-  background: lightsalmon;
-  visibility: hidden;
-}
-
-.box4 {
   width: 100px;
-  height: 50px;
-  background: aquamarine;
-  visibility: hidden;
+  background: burlywood;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.color {
+  background: chocolate;
+}
+
+.radius {
+  border-radius: 50%;
 }

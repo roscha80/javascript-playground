@@ -9,15 +9,14 @@
     <script defer type="module" src="./index.js"></script>
   </head>
   <body>
-    <div class="box1"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
-    <div class="box4"></div>
-    <nav class="navbar">
-      <button class="button-box1">Box 1</button>
-      <button class="button-box2">Box 2</button>
-      <button class="button-box3">Box 3</button>
-      <button class="button-box4">Box 4</button>
-    </nav>
+    <div data-box class="box"></div>
+    <form data-form>
+      <label>
+        Header text
+        <input name="classes" />
+      </label>
+      <button>Set style</button>
+      <button data-remove>Remove</button>
+    </form>
   </body>
 </html>
