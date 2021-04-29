@@ -5,28 +5,18 @@
 body {
   display: grid;
   justify-items: center;
+  padding: 120px 0;
   height: 100vh;
   gap: 20px;
 }
 
 label {
   display: grid;
+  justify-items: center;
 }
 
 .box {
   height: 100px;
   width: 100px;
   background: burlywood;
-}
-
-.rotate {
-  transform: rotate(45deg);
-}
-
-.color {
-  background: chocolate;
-}
-
-.radius {
-  border-radius: 50%;
 }

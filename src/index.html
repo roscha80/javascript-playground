@@ -12,9 +12,28 @@
     <div data-box class="box"></div>
     <form data-form>
       <label>
-        <input data-input />
+        Rotate
+        <input type="range" max="360" step="20" value="0" js__rotate />
       </label>
-      <button>Set style</button>
+      <label>
+        Size
+        <input
+          type="range"
+          min="20"
+          max="300"
+          step="20"
+          value="100"
+          js__scale
+        />
+      </label>
+      <label>
+        Radius
+        <input type="range" min="0" max="50" step="5" value="0" js__radius />
+      </label>
+      <label>
+        Color
+        <input type="range" max="360" step="10" value="0" js__color />
+      </label>
     </form>
   </body>
 </html>
